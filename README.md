@@ -9,11 +9,11 @@ gcc -fopenmp main.c chained_locked.c -o chained_locked.exe
 gcc -fopenmp main.c chained_lock_free.c -o chained_lock_free.exe
 
 Options:
--f -> Data file path
--b -> Initial number of buckets (hash table size)
--t -> Number of threads
--r -> Disable resizing
--s -> Disable metric tracking for speed test
+- -f -> Data file path
+- -b -> Initial number of buckets (hash table size)
+- -t -> Number of threads
+- -r -> Disable resizing
+- -s -> Disable metric tracking for speed test
 
 Already generated data is in "datasets"
 
